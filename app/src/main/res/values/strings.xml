@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AP-Figs</string>
+    <string name="inicio">begin</string>
+    <string name="fin">end</string>
+    <string name="opcion">Choose option</string>
+    <string name="figura">Choose figure</string>
+    <string name="area">Area</string>
+    <string name="perimetro">Perimeter</string>
+    <string name="cuadrado">Square</string>
+    <string name="circulo">Circle</string>
+    <string name="continuar">Continue</string>
+    <string name="lado">Side</string>
+    <string name="radio">Radius</string>
+    <string name="resultado">show result</string>
+    <string name="aviso">You must enter a value</string>
+    <string name="bienvenido">Wellcome</string>
+    <string name="info">More information in:</string>
+    <string name="llamar">Or calling number:</string>
+    <string name="fin_app">end app</string>
+    <string name="atras">back</string>
+    <string name="url">https://ingemecanica.com/tutoriales/areas.html</string>
+    <string name="activity2">Calculating...</string>
+    <string name="activity3">More information...</string>
+</resources>

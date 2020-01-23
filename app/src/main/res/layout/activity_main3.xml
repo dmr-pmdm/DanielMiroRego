@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        android:orientation="vertical"
+        android:padding="@dimen/padding">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/cuadros"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/info" />
+
+            <TextView
+                android:id="@+id/txtUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/url"
+                android:textColor="@color/enlace"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="@dimen/margin_2"
+            android:layout_weight="1"
+            android:background="@color/cuadros"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/llamar" />
+
+            <TextView
+                android:id="@+id/txtTlfn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="34986110011"
+                android:textColor="@color/enlace"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/cuadros"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAtras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/atras" />
+
+            <Button
+                android:id="@+id/btnFinApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fin_app" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

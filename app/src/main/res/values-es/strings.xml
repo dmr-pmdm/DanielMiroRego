@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AP-Figs</string>
+    <string name="inicio">Empezar</string>
+    <string name="fin">Finalizar</string>
+    <string name="opcion">Elige una opción</string>
+    <string name="figura">Elige una figura</string>
+    <string name="area">Area</string>
+    <string name="perimetro">Perimetro</string>
+    <string name="cuadrado">Cuadrado</string>
+    <string name="circulo">Circulo</string>
+    <string name="continuar">Continuar</string>
+    <string name="lado">Lado</string>
+    <string name="radio">Radio</string>
+    <string name="resultado">mostrar resultado</string>
+    <string name="aviso">Debes teclear un valor</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="info">Más información en:</string>
+    <string name="llamar">O llamando al número:</string>
+    <string name="fin_app">Fin App</string>
+    <string name="atras">Atrás</string>
+    <string name="url">https://ingemecanica.com/tutoriales/areas.html</string>
+    <string name="activity2">Calculando...</string>
+    <string name="activity3">Más información...</string>
+</resources>
